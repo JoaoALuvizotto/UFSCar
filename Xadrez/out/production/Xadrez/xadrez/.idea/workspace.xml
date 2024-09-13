@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5e2b6c3f-29ab-4c5e-b316-198496c2bda1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../EDA/leetCode/Grafos/785.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../EDA/leetCode/Grafos/785.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bispo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Bispo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Caminho.java" beforeDir="false" afterPath="$PROJECT_DIR$/Caminho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Casa.java" beforeDir="false" afterPath="$PROJECT_DIR$/Casa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cavalo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cavalo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dama.java" beforeDir="false" afterPath="$PROJECT_DIR$/Dama.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gerenciador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Gerenciador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jogada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Jogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Peao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Peao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Peca.java" beforeDir="false" afterPath="$PROJECT_DIR$/Peca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rei.java" beforeDir="false" afterPath="$PROJECT_DIR$/Rei.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tabuleiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tabuleiro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Torre.java" beforeDir="false" afterPath="$PROJECT_DIR$/Torre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Bispo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Caminho.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Casa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Cavalo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Dama.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Gerenciador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Jogada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Jogador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Jogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Peao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Peca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Rei.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Tabuleiro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Teste.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Torre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/xadrez/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Xadrez/xadrez/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;renanmatulianes&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/renanmatulianes/UFSCar.git&quot;,
+    &quot;accountId&quot;: &quot;ea00544a-ca6c-4a15-af55-fcccece8d8b1&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2laGgXP1CmxMreXAzDDSR5s2ZiS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Gerenciador.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Renan/Desktop/UFSCar/3 semestre/POO/Xadrez&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5e2b6c3f-29ab-4c5e-b316-198496c2bda1" name="Changes" comment="" />
+      <created>1725410886768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725410886768</updated>
+      <workItem from="1725410888623" duration="95000" />
+      <workItem from="1725411025067" duration="751000" />
+      <workItem from="1725578289678" duration="16000" />
+      <workItem from="1725578316729" duration="9000" />
+      <workItem from="1725578393022" duration="21000" />
+      <workItem from="1725578423850" duration="5000" />
+      <workItem from="1725578454195" duration="94000" />
+      <workItem from="1726164499132" duration="387000" />
+      <workItem from="1726166231251" duration="127000" />
+      <workItem from="1726166379115" duration="1474000" />
+      <workItem from="1726167879494" duration="10586000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
