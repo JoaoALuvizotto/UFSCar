@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdbool.h>
 
 typedef struct AdjListNode {
     int dest;
@@ -53,8 +54,8 @@ void inserirAresta(Graph *grafo, int v, int w){
 
 void inserirArestas(Graph* grafo, int** edges, int edgesSize) {
     for (int i = 0; i < edgesSize; i++) {
-        int src = edges[i][0];
-        int dest = edges[i][1];
+        int src = edges[i][1];
+        int dest = edges[i][0];
 
         AdjListNode* newNode = novoAdjListNode(dest);
         newNode->next = grafo->adj[src].head;
@@ -81,4 +82,59 @@ void liberarGrafo(Graph* grafo) {
     }
     free(grafo->adj);
     free(grafo);
+}
+
+bool canFinishPrivate(Graph* g, int visitados[], int V)
+{
+    AdjListNode* p = g->adj[V].head;
+    bool ciclo = true;
+    visitados[V] = 1;
+    while (p != NULL)
+    {
+        if(visitados[p->dest] == 1)
+            return false;
+        
+        if(visitados[p->dest] == 0)
+        {
+            ciclo = canFinishPrivate(g, visitados, p->dest);
+            if (!ciclo)
+            {
+                return false;
+            }
+            
+        }
+        p = p->next;
+    }
+    visitados[V] = 2;
+
+    return ciclo;
+    
+}
+
+bool canFinish(int numCourses, int** prerequisites, int prerequisitesSize, int* prerequisitesColSize) {
+
+    Graph* g =  inicializar(numCourses);
+    bool ciclo = true;
+    inserirArestas(g, prerequisites, prerequisitesSize);
+    
+    int visitados[numCourses];
+
+    for (int i = 0; i < numCourses; i++)
+    {
+        visitados[i] = 0;
+    }
+
+    for (int i = 0; i < numCourses; i++)
+    {
+        if (visitados[i] == 0)
+        {
+            ciclo = canFinishPrivate(g, visitados, i);
+            if(!ciclo)
+                return false;
+           
+        }
+        
+    }
+    
+    return ciclo;
 }

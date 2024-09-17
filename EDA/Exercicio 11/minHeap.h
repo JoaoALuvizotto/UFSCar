@@ -38,16 +38,13 @@ MinHeap* createMinHeap(int capacity) {
 
 void insertMinHeap(MinHeap *minHeap, int key) {
     if (minHeap->size == minHeap->capacity) {
-        printf("Overflow: Could not insert key\n");
         return;
     }
 
-    // Primeiro, insere no final da heap.
     int i = minHeap->size;
     minHeap->arr[i] = key;
     minHeap->size++;
 
-    // Depois, realiza o heapify bottom-up.
     while (i != 0 && minHeap->arr[parent(i)] > minHeap->arr[i]) {
         swap(&minHeap->arr[i], &minHeap->arr[parent(i)]);
         i = parent(i);
