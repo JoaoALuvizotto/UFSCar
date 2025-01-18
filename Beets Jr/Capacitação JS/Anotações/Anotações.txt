@@ -1,0 +1,3 @@
+Capacitação Node.js
+
+module.exports = é uma funcionalidade utilizada para exportar valores que estão em um arquivo e é necessário reutilizar esse dado em outros. Com ela se é possível transformar qualquer coisa em módulo, fazendo com que possamos acessar funções, variáveis e outras coisas de outros arquivos do sistema. 
